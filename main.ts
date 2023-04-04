@@ -7,7 +7,7 @@ basic.forever(function () {
     if (pins.analogReadPin(AnalogPin.P4) > 600) {
         angulo = 90
     }
-    if (pins.analogReadPin(AnalogPin.P2) > 800) {
+    if (pins.analogReadPin(AnalogPin.P2) > 801) {
         angulo += 10
     }
     if (pins.analogReadPin(AnalogPin.P2) < 100) {
